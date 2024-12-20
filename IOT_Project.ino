@@ -145,6 +145,6 @@ void loop() {
   if (Blynk.connected()) {
     Blynk.run();  // Run Blynk tasks
   }
-  timer.run();  // Run Blynk timer tasks
+  timer.run();  
 }
 
